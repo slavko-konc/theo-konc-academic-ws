@@ -20,3 +20,4 @@ Thumbs.db
 # Éditeurs de code
 .vscode/
 .idea/
+**/*.quarto_ipynb
