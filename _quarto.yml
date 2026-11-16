@@ -83,7 +83,7 @@ website:
   
   page-footer:
     left: |
-      <span class="faux-block"> {{< var years >}} Théo Konc</span>   
+      <span class="faux-block"> {{< var years >}} Théo Konc, Mon Nov 16 15:06:23     2026</span>   
     center: |
       <span class="faux-block"> {{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
     right: |
