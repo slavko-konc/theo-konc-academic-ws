@@ -1,0 +1,14 @@
+---
+title: "Talks"
+title-block-banner: "#FB9E07"
+page-layout: full
+toc: true
+toc-location: right
+toc-title: Year
+date-format: "MMMM D, YYYY"
+---
+
+This page contains the source code, links, and slides for various workshops, talks, lectures, and presentations I've given. Research presentations given at conferences are typically stored in their respective repositories on GitHub.
+
+
+Except where noted, all content is © Théo Konc

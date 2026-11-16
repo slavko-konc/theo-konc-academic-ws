@@ -1,0 +1,104 @@
+project:
+  type: website
+
+  # title: "Theo Konc's academic website"
+
+  preview: 
+    port: 5555
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "!etc/"
+
+  resources:
+    - "files/**"
+    - "etc/**"
+
+    # Things that need to be at the site root
+    # - ".htaccess"
+    # - "LiveSearchSiteAuth.xml"
+    # - "keybase.txt"
+    # - "y_key_31e0c4105fc75710.html"
+    # - "pgp_ath.asc.txt"
+
+freeze: true
+
+# bibliography: files/bib/references.bib
+# csl: files/bib/chicago-author-date.csl
+
+# Metadata stuff
+# pagetitle: "{{< meta title >}} | Théo Konc"
+# author-meta: "Théo Konc"
+
+website:
+  title: "Theo Konc's academic website"
+  description: "Théo Konc is an assistant professor at Wageningen University, researching environmental economics and teaching data science & economics."
+  # favicon: "/files/favicon-512.png"
+  site-url: "https://theo.konc.fr"
+  repo-url: "https://github.com/slavko-konc/theo-konc-academic-ws"
+
+  # Help out the robots
+  llms-txt: true
+
+  # google-analytics: "UA-527449-5"
+
+  draft-mode: unlinked
+
+  # twitter-card: 
+  #  image: "/files/profiles/twitter-card-large.png"
+  #  card-style: summary_large_image
+  #  creator: "@andrewheiss"
+  #  site: "@andrewheiss"
+
+  # open-graph: 
+  #  image: "/files/profiles/twitter-card-large.png"
+  #  locale: en_US
+  
+  navbar:
+    pinned: true
+
+    left:
+      - text: "About"
+        href: "index.qmd"
+      - text: "CV"
+        href: "cv/index.qmd"
+      - text: "Research"
+        file: research/index.qmd
+      - text: "Teaching"
+        href: "teaching/index.qmd"
+      - text: "Talks"
+        href: "talks/index.qmd"
+    
+    right:
+      - text: "{{< iconify bi envelope size=1.1em title='E-mail' >}}"
+        href: "mailto:theo.konc@wur.nl"
+        rel: me
+      - text: "{{< iconify bi github size=1.1em title='GitHub' >}}"
+        href: https://github.com/slavko-konc
+        rel: me
+  
+  page-footer:
+    left: |
+      <span class="faux-block"> {{< var years >}} Théo Konc</span>   
+    center: |
+      <span class="faux-block"> {{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
+    right: |
+      <span class="faux-block">[View the source at {{< fa brands orcid >}} GitHub]({{< var github-url >}})</span>
+
+format:
+  html:
+    theme: 
+      - html/tkw.scss
+    grid: 
+      body-width: 900px
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    highlight-style: monokai

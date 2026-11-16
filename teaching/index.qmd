@@ -1,0 +1,22 @@
+---
+title: "Teaching"
+title-block-banner: "#EE6A24"
+page-layout: full
+toc: true
+toc-location: right
+toc-title: Contents
+toc-expand: 3
+format:
+  html:
+    include-in-header: 
+      - text: |
+          <style>
+          .card-description {
+            font-size: 0.85em;
+            font-weight: 300;
+            color: #343a40;
+          }
+          </style>
+---
+
+WHATEVER

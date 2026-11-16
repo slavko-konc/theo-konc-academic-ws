@@ -1,0 +1,22 @@
+# Dossier système Quarto
+/.quarto/
+
+# Sorties générées (décommenter si vous ne souhaitez pas versionner le rendu)
+# _site/
+# _book/
+
+# Caches de rendu du code (ex: Knitr ou Jupyter)
+*_cache/
+
+# Environnement virtuel Python / R
+/env/
+.venv/
+.condaenv/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Éditeurs de code
+.vscode/
+.idea/
