@@ -1,0 +1,12 @@
+# Theo Konc’s academic website
+
+> Théo Konc is an assistant professor at Wageningen University, researching environmental economics and teaching data science & economics.
+
+## Pages
+
+- [Teaching](https://theo.konc.fr/teaching/index.llms.md)
+- [Research](https://theo.konc.fr/research/index.llms.md)
+- [Curriculum vitæ](https://theo.konc.fr/cv/index.llms.md)
+- [About](https://theo.konc.fr/about.llms.md)
+- [Theo Konc's academic website](https://theo.konc.fr/index.llms.md)
+- [Talks](https://theo.konc.fr/talks/index.llms.md)

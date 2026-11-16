@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "WHATEVER"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research spans public policy, nonprofit management, political science, and international relations. I study human rights and international nonprofit management and I focus on authoritarian regulation of civil society and international NGO responses to administrative crackdown. I also research causal inference methods, particularly using panel data."
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitæ",
+    "section": "",
+    "text": "Download current CV"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Theo Konc’s academic website",
+    "section": "",
+    "text": "I’m an assistant professor at the Wageningen University in the Netherlands and guest Researcher at the Lab “Societal Transition and Well-Being and Development” at the [Potsdam Institute For Climamate Impact Research in Germany] (https://www.pik-potsdam.de). Prior to coming to the Netherlands, I was Postdoctoral Researcher at Technical University of Berlin. I received a PhD in Economics Cum Laudefrom the Universitat Autònoma de Barcelona (UAB) in 2021.\nI study WHATEVER, and I got in 2021 an Honorable mention as part of the [EAERE Award for Best Doctoral Dissertations in Environmental and Resource Economics] received the 2016–2018 Emerging Scholar Dissertation Award from the European Association of Environmental and Resource Economists (EAERE). I do research in WHATEVER.\nI teach courses on WHATEVER."
+  },
+  {
+    "objectID": "talks/index.html",
+    "href": "talks/index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "This page contains the source code, links, and slides for various workshops, talks, lectures, and presentations I’ve given. Research presentations given at conferences are typically stored in their respective repositories on GitHub.\nExcept where noted, all content is © Théo Konc"
+  }
+]
