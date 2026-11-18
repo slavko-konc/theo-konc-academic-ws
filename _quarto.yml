@@ -83,11 +83,15 @@ website:
   
   page-footer:
     left: |
-      <span class="faux-block"> {{< var years >}} Théo Konc, Mon Nov 16 15:06:23     2026</span>   
+      <span class="faux-block">
+        {{< var years >}} Théo Konc,
+        {{< fa brands linkedin >}} <a href="https://nl.linkedin.com/in/théo-konc-37b3108b" target="_blank">LinkedIn</a>,
+        Mon Nov 17, 2026
+      </span>
     center: |
       <span class="faux-block"> {{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
     right: |
-      <span class="faux-block">[View the source at {{< fa brands orcid >}} GitHub]({{< var github-url >}})</span>
+      <span class="faux-block">View the source at {{< fa brands github >}} [GitHub]({{< var github-url >}})</span>
 
 format:
   html:
