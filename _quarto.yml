@@ -87,7 +87,7 @@ website:
       <span class="faux-block">
         {{< var years >}} Théo Konc,
         {{< fa brands linkedin >}} <a href={{< var linkedin-url >}} target="_blank">LinkedIn</a>,
-        Nov 20, 2026
+        Nov 24, 2026
       </span>
     center: |
       <span class="faux-block"> {{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
