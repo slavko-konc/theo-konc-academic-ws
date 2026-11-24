@@ -51,8 +51,8 @@ website:
   # twitter-card: 
   #  image: "/files/profiles/twitter-card-large.png"
   #  card-style: summary_large_image
-  #  creator: "@andrewheiss"
-  #  site: "@andrewheiss"
+  #  creator: "@theokonc"
+  #  site: "@theokonc"
 
   # open-graph: 
   #  image: "/files/profiles/twitter-card-large.png"
@@ -85,8 +85,8 @@ website:
     left: |
       <span class="faux-block">
         {{< var years >}} Théo Konc,
-        {{< fa brands linkedin >}} <a href="https://nl.linkedin.com/in/théo-konc-37b3108b" target="_blank">LinkedIn</a>,
-        Mon Nov 17, 2026
+        {{< fa brands linkedin >}} <a href={{< var linkedin-url >}} target="_blank">LinkedIn</a>,
+        Nov 19, 2026
       </span>
     center: |
       <span class="faux-block"> {{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
