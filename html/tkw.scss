@@ -61,7 +61,7 @@ $footer-font-family: "Jost" !default;
 $body-color: $gray-900 !default;
 
 // Links
-$link-color: $orange !default;
+$link-color: $indigo !default;
 $link-decoration: none !default;
 $link-hover-color: $red !default;
 $link-hover-decoration: underline !default;
@@ -186,7 +186,7 @@ p code.sourceCode, li code.sourceCode, td code.sourceCode {
 
         .active {
             font-weight: 400;
-            color: $orange;
+            color: $blue;
         }
 
         .quarto-category-count {

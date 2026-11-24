@@ -37,7 +37,8 @@ freeze: true
 website:
   title: "Theo Konc's academic website"
   description: "Théo Konc is an assistant professor at Wageningen University, researching environmental economics and teaching data science & economics."
-  # favicon: "/files/favicon-512.png"
+  image : files/profiles/theo-konc-2020.jpg
+  favicon: "/files/img/favicon.png"
   site-url: "https://theo.konc.fr"
   repo-url: "https://github.com/slavko-konc/theo-konc-academic-ws"
 
@@ -86,7 +87,7 @@ website:
       <span class="faux-block">
         {{< var years >}} Théo Konc,
         {{< fa brands linkedin >}} <a href={{< var linkedin-url >}} target="_blank">LinkedIn</a>,
-        Nov 19, 2026
+        Nov 20, 2026
       </span>
     center: |
       <span class="faux-block"> {{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
